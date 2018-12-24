@@ -1,6 +1,7 @@
-fp=webdriver.FirefoxProfile(r"D:\qt\Mozilla Firefox\firefox.exe")
-driver=webdriver.Firefox(fp)
-driver.get('http://www.baidu.com')
+#coding=utf-8
+from selenium import webdriver
 
-
-
+driver=webdriver.Firefox()
+url='http://www.baidu.com'
+driver.get(url)
+driver.close()
