@@ -7,4 +7,4 @@ if guess == 8 :
 else:
     print("猜错啦，我心里想的是8!")
 print("游戏结束,不玩了^_^")
-
+print (11)
